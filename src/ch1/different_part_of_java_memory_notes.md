@@ -1,4 +1,4 @@
-## JVM's components for memory management
+## JVM's components for memory management 
 One of the tasks of the JVM is managing the Java memory. Without this memory management, no memory could be allocated and objects couldn’t be stored. Even if that part was in place, it would never be cleaned up. So, cleaning up the memory, which is also called the deallocation of objects, is of great importance for running Java code. Without it, the code can’t run, or if it’s only allocated, it will get full and the program will run out of memory.
 
 To be able to execute applications, the JVM has roughly three components in place.
@@ -6,9 +6,11 @@ To be able to execute applications, the JVM has roughly three components in plac
 1. The **class loader**: is used to load all the classes files.
 2. The **Runtime data areas** _(Java Memory)_:  is used for storing the class data, memory allocation, and the instructions that are being executed.
 3. The **Execution  Engine**: is used to execute the bytecode after it's loaded in the main memory.
-4. The **Java Native Interface**: interacts with the **execution engine** to use the native libraries that are required for executing the bytecode.
 
    ![Figure_13_B18762.jpg](assets/Figure_1.3_B18762.jpg)
+
+> The **Java Native Interface** interacts with the **execution engine** to use the native libraries that are required for executing the bytecode.
+
 
 ### Runtime data area
 
