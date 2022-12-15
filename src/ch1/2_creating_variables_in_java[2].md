@@ -20,7 +20,7 @@ The JVM deals with two types of variables: primitives and reference types. There
 
 
 | `int` | `byte` | `short` | `long` | `float` | `double` | `boolean` | `char` |
-| ----- | ------ | ------- | ------ | ------- | -------- | --------- | ------ |
+|-------|--------|---------|--------|---------|----------|-----------|--------|
 
 > The primitive types store just the value, and they are limited to eight types.
 
