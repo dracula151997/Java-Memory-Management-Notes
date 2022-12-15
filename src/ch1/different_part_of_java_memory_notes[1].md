@@ -62,3 +62,6 @@ The Program Counter (PC) register knows what code is being executed by holding t
 #### The native method stack (C Stack)
 It is there for the native code that is executed. Native code is part of the implementation that is not written in **Java**, but for example, in **C**. These are the stacks that store the values for the native code, just as the JVM stack does for the Java code.
 > Every thread has its own native method stack.
+
+# Source
+[Understanding the JVM’s components for memory management](https://subscription.packtpub.com/book/programming/9781801812856/1/ch01lvl1sec03/understanding-computer-memory-and-java-memory)
