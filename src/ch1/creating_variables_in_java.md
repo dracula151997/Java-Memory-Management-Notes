@@ -14,7 +14,7 @@ percentage = 8.6 // Initializing
 
 > The JVM doesn’t check the types anymore – this is done by the compiler before running the application.
 
-## Primitives and reference types
+### Primitives and reference types
 
 The JVM deals with two types of variables: primitives and reference types. There are eight primitive types in java:
 
@@ -45,7 +45,7 @@ References come in four flavors:
 
 > Primitive and reference variables are stored on the _stack_. The actual object is stored on the _heap_.
 
-## Storing variables on the stack
+### Storing variables on the stack
 
 The stack memory is the memory that is used for executing methods.
 
@@ -57,7 +57,7 @@ Inside a method, primitives and references exist. Every thread in the applicatio
 
 > The method that currently is being executed by a thread is called the **current method** and its data is held in the **current frame.**
 
-## Elements of the frame
+### Elements of the frame
 
 A frame contains a number of elements. These elements are needed to store all the necessary data for a method to be executed. A fame has a **local variable array**, an **operand stack**, and **frame data.**
 

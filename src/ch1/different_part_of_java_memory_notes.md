@@ -7,6 +7,7 @@ To be able to execute applications, the JVM has roughly three components in plac
 2. The **Runtime data areas** _(Java Memory)_:  is used for storing the class data, memory allocation, and the instructions that are being executed.
 3. The **Execution  Engine**: is used to execute the bytecode after it's loaded in the main memory.
 
+
    ![Figure_13_B18762.jpg](assets/Figure_1.3_B18762.jpg)
 
 > The **Java Native Interface** interacts with the **execution engine** to use the native libraries that are required for executing the bytecode.
